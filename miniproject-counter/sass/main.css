@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section > .container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section > .container > h1 {
+  font-size: 5rem;
+}
+section > .container > h2 {
+  font-size: 3rem;
+}
+section > .container > button {
+  width: 5rem;
+  height: 2rem;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */

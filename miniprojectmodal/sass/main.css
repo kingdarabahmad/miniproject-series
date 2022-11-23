@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section > .modal {
+  width: 450px;
+  height: 300px;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section > .modal > .openBtn {
+  background-color: burlywood;
+  border-radius: 20px;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+}
+section > .modal > .modalContent {
+  box-shadow: 0 0 10px gray;
+  background-color: white;
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transform: translate(-200%);
+}
+section > .modal > .modalContent > .closeBtn {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+  background-color: burlywood;
+}/*# sourceMappingURL=main.css.map */
